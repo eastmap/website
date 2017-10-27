@@ -1,0 +1,87 @@
+/*본문 col2영역 기본 스타일*/
+#content #col2{
+	width: 836px;
+	min-height: 558px;
+	float: left;
+}
+
+/*타이틀 이미지*/
+#content #col2 #title{
+	width: 96%;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/* 로그인 폼 영역*/
+#form_login{
+	width: 96%;
+	margin-left: 15px;
+	height: 300px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*로그인 안내메세지 이미지*/
+#form_login #login_msg{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+/*좌물쇠 모양 이미지*/
+#form_login #login1{
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+/*라벨/입력/버튼..*/
+#form_login #login2{
+	float: left;
+	width: 500px;
+	height: 150px;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+/*라벨*/
+#login2 #id_pw_label{
+	float: left;
+	width: 80px;
+	height: 50px;
+	text-align: right;
+}
+
+/*라벨영역의 ul*/
+#login2 #id_pw_label ul{ margin-top: 7px; }
+/*라벨영역의 li*/
+#login2 #id_pw_label li{ padding-bottom: 11px; }
+
+
+/*입력*/
+#login2 #id_pw_input{
+	float: left;
+	height: 50px;
+	margin-left: 10px;
+}
+/*입력요소의  input요소 스타일..*/
+#login2 #id_pw_input input.login_input{
+	width: 150px;
+	height: 18px;
+}
+
+#login2 #id_pw_input li{ padding-bottom: 7px; }
+
+/*버튼*/
+#login2 #login_button{
+	float: left;
+	margin-left: 10px;
+}
+
+/*회원가입 안내 문구...*/
+#login2 #join_button{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+

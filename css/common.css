@@ -1,0 +1,127 @@
+/*모든 요소들의 기본 마진,패딩*/
+*{margin: 0; padding: 0;}
+
+/*웹문서의 기본 글꼴과 배경 지정*/
+body{
+	font-family: "돋움", dotum, "굴림", gulim, arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+/*모든 a요소들의 밑줄을 없애기..*/
+a{ text-decoration: none; color: #555555 }
+
+
+/*웹문서의 가장 큰 div요소(id=wrap)의 스타일: 웹문서의 사이즈와 정렬*/
+/*가로사이즈 늘려보면 1000px이후부터..가운데 정렬..(like 포털사이트)*/
+#wrap{
+	width: 1000px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*header영역(id=header)의 높이값과 상단 마진..:이미지 37, 32*/
+#header{
+	height: 62px;
+	margin-top: 10px;
+}
+
+/*홈페이지 메인 아이콘 이미지와 모토 이미지..가 한줄로 되도록..*/
+#logo{
+	float: left;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+
+/*모토 이미지..스타일*/
+#moto{
+	float: left;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+/*로그인/회원가입 글씨가 문서의 오른쪽 끝으로 배치되도록..*/
+#top_login{
+	float: right;
+	margin-right: 20px;
+}
+
+
+/*메뉴들을 가지고 있은 nav(id=menu)요소의 스타일*/
+#menu{margin-top: 10px;}
+
+/*각 메뉴들..class=menus를 한줄로 배치되도록..*/
+.menus{ float: left; }
+
+/*가로사잊가 커져도 녹색메뉴라인이 이어져 보이고 싶다면..*/
+body{
+	background-image: url(../img/main_bg.gif);
+	background-repeat: repeat-x;
+}
+
+/*콘텐츠 영역 스타일*/
+#main_img img{margin-top: 20px;}
+
+#content{
+	overflow: hidden;
+	margin-top: 62px; /*float된 menus 때문에 마진값이 커야함.*/
+	width: 998px;
+	min-height: 600px;
+}
+
+/*왼쪽 col1영역*/
+#content #col1{
+	float: left;
+	width: 160px;
+	min-height: 600px;
+	margin-top: 20px;
+	border-right: 1px solid #dddddd;
+}
+
+/*왼쪽 col1영역안에서 리스트영역*/
+#left_menu{
+	width: 92%;
+	margin-left: 10px;
+}
+
+/*왼쪽 col1영역의 sub_title*/
+#left_menu #sub_title{
+	padding-top: 10px;
+	height: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*제목영역의 이미지의 왼쪽여백 살짝!*/
+#left_menu #sub_title img{
+	padding-left: 10px;
+}
+
+/*모든 리스트들의 리스트스타일 제거*/
+ul{ list-style: none; }
+
+
+/*리스트와 타일들이미지가 너무 붙어있어서..*/
+#left_menu ul{
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+/*리스트들이 너무 조밀조밀해요..*/
+#left_menu li{
+	padding: 5px;
+}
+
+
+/*float들의 영향을 벗어나는 clear속성용 스타일*/
+.clear{
+	clear: both;
+}
+
+
+
+
+
+
+

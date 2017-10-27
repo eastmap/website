@@ -1,0 +1,114 @@
+/*본문 col2영역 기본 스타일*/
+#content #col2{
+	width: 836px; /*1000 = 160px(col1)+836(col2)+(border)*/
+	min-height: 558px;
+	float: left;
+}
+
+/*본문 col2 영역 타이틀 이미지..*/
+#content #col2 #title{
+	width: 96%;/*좌우여백용으로..*/
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*title영역 아래 input영역*/
+#content #col2 #form_join{
+	width: 96%;
+	height: 300px;
+	margin-left: 15px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*라벨들 영역*/
+#content #col2 #form_join #join_labels{
+	float: left;
+	width: 120px;
+	height: 250px; /*나머지 50은 아내메세지영역*/
+	background-color: #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*라벨등 영역 ul*/
+#content #col2 #form_join #join_labels ul{
+	margin-top: 4px;
+}
+/*라벨등 영역 li*/
+#content #col2 #form_join #join_labels li{
+	padding: 10px;
+}
+
+/*인풋들 영역*/
+#content #col2 #form_join #join_inputs{
+	float: left;
+	width: 670px; 
+	height: 250px;
+}
+
+
+/*인풋들 영역 li*/
+#content #col2 #form_join #join_inputs li{
+	width: 100%;
+	height: 29px;
+	padding-left: 8px;
+	padding-top: 6px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*input요소의 사이즈*/
+#content #col2 #form_join #join_inputs input{
+	width: 150px;
+	height: 18px;
+}
+
+/*아이디 입력영역의 3개 요소들의 한줄로 배치되도록..*/
+#content #col2 #form_join #join_inputs #id1{
+	float: left;
+}
+
+#content #col2 #form_join #join_inputs #id2{
+	float: left;
+	margin-left: 5px;
+}
+
+#content #col2 #form_join #join_inputs #id3{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+/*닉네임 영역*/
+#content #col2 #form_join #join_inputs #nick1{
+	float: left;
+}
+#content #col2 #form_join #join_inputs #nick2{
+	float: left;
+	margin-left: 5px;
+}
+
+/*휴대폰 입력 부분*/
+#content #col2 #form_join #join_inputs input.hp{
+	width: 40px;
+}
+
+/*이메일*/
+#content #col2 #form_join #join_inputs input#email1{
+	width: 100px;
+}
+#content #col2 #form_join #join_inputs input#email2{
+	width: 120px;
+}
+
+/*안내메세지 영역*/
+#content #col2 #form_join #join_must{
+	padding-top: 15px;
+}
+
+/*join form 저장버튼, 취소버튼..*/
+#content #col2 #join_buttons{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}

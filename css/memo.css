@@ -1,0 +1,65 @@
+/*본문 col2 영역 기본 스타일*/
+#content #col2{
+	width: 810px;
+	min-height: 558px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+/* col2영역의 타이틀 이미지*/
+#content #col2 #title{
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*낙서글 입력 영역..*/
+#memo_row1{
+	height: 155px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*닉네임 표시 영역*/
+#memo_row1 #memo_nick{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*메모 입력 textarea와 버튼이 옆으로 배치되도록..*/
+#memo1{ float: left; }
+#memo2{	float: left; margin-left: 5px; }
+
+/*메모글 목록 제목줄*/
+#memo_list_title{
+	padding-top:10px;
+	padding-bottom:5px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*메모글 목록 제목 영역의 ul*/
+#memo_list_title ul{margin-left: 5px;}
+
+/*메모글 목록 제목 영역의 li*/
+#memo_list_title li{display: inline;}
+
+/*메모글 목록 제목 영역의 각각 마진 추가.*/
+#memo_list_title #list_title2{margin-left: 10px;}/*닉네임*/
+#memo_list_title #list_title3{margin-left: 20px;}/**/
+#memo_list_title #list_title4{margin-left: 500px;}/*삭제*/
+
+/*메모글 내용 영역*/
+#memo_list_content{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	width: 800px;
+}
+
+/*페이지 번호 표시 영역*/
+#page_num{
+	text-align: center;
+	margin-top: 20px;
+
+}
