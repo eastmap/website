@@ -30,24 +30,25 @@
 #memo1{ float: left; }
 #memo2{	float: left; margin-left: 5px; }
 
+
 /*메모글 목록 제목줄*/
 #memo_list_title{
-	padding-top:10px;
-	padding-bottom:5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
 }
 
 /*메모글 목록 제목 영역의 ul*/
-#memo_list_title ul{margin-left: 5px;}
+#memo_list_title ul{ margin-left: 5px; }
 
 /*메모글 목록 제목 영역의 li*/
-#memo_list_title li{display: inline;}
+#memo_list_title li{ display: inline; }
 
 /*메모글 목록 제목 영역의 각각 마진 추가.*/
-#memo_list_title #list_title2{margin-left: 10px;}/*닉네임*/
-#memo_list_title #list_title3{margin-left: 20px;}/**/
-#memo_list_title #list_title4{margin-left: 500px;}/*삭제*/
+#memo_list_title #list_title2{ margin-left: 10px; }
+#memo_list_title #list_title3{ margin-left: 20px; }
+#memo_list_title #list_title4{ margin-left: 500px; }
 
 /*메모글 내용 영역*/
 #memo_list_content{
@@ -57,9 +58,8 @@
 	width: 800px;
 }
 
-/*페이지 번호 표시 영역*/
+/*페이지 번호표시영역*/
 #page_num{
 	text-align: center;
-	margin-top: 20px;
-
+	margin-top: 10px;
 }

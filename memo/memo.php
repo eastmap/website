@@ -153,14 +153,13 @@
 
  					<!-- 메모글 내용 영역 -->
  					<div id="memo_list_content">
- 						<?=$memo_content?>
+ 						<?= $memo_content?>
  					</div>
 
- 					<!-- 각 메모글 마다 덧글... 작업-->
-
+ 					<!-- 각 메모글 마다 덧글....작업.. -->
 
  				<?
- 					}
+ 					}		
 
  				 ?>
 
@@ -171,18 +170,14 @@
  				 	◀ 이전 &nbsp;&nbsp;
 
  				 	<!-- 사이에 페이지 번호.. -->
- 				 	<?php
+ 				 	<?php 
  				 		for($i=1; $i<=$pageNum; $i++){
- 				 			if($page==$i) echo "<strong>&nbsp; $i &nbsp;</strong>";
- 				 			else echo "<a href='memo.php?page=$i'>&nbsp; $i &nbsp;</a>";
-
+ 				 			if($page == $i) echo "<strong> $i </strong>";
+ 				 			else echo "<a href='memo.php?page=$i'> $i </a>";
  				 		}
+ 				 	 ?>
 
- 				 	?>
-
-
- 				 	&nbsp;&nbsp; 다음 ▶
- 				 	
+ 				 	&nbsp;&nbsp; 다음 ▶ 				 	
  				 </div>
  				
  			</section>
